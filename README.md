@@ -1,4 +1,4 @@
-# Travery Crach Course Research
+# Travery Crash Course Research
 
 Basic React.js Application after following Traversy Media's Crash Course. Uses:
 
@@ -7,4 +7,3 @@ Basic React.js Application after following Traversy Media's Crash Course. Uses:
  - UUID for unique ID creation (v4)
  - jQuery lib for AJAX reqs
  - JSX for some template syntax
- 
