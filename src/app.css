@@ -1,0 +1,77 @@
+
+  /* Application */
+
+  .App div, .App input, .App select, .App article {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .App {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 1em;
+  }
+
+  .App h1 {
+    font-size: 28px;
+  }
+
+  .App h2 {
+    font-size: 20px;
+  }
+
+  /* Movie Listing */
+
+  .Movies ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Movie Items */
+
+  .MovieItem {
+    list-style: none;
+    border-top: 1px dashed #aaa;
+    border-left: 1px dashed #aaa;
+    border-right: 1px dashed #aaa;
+  }
+
+  .MovieItem article {
+    padding: 1em;
+  }
+
+  .MovieItem:last-child {
+    border-bottom: 1px dashed #aaa;
+  }
+
+  .MovieItem h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 0 auto 0.5em;
+  }
+
+  .MovieItem p {
+    font-size: 14px;
+    margin: 0 auto 0.3em;
+  }
+
+  .MovieItem p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* Movie Form */
+
+  form input, form select, form label {
+    font-size: 16px;
+    width: 100%;
+    display: block;
+  }
+
+  form input {
+    padding: 0.3em 0.3em 0.3em 0.5em;
+  }
+
+  .form-grouping {
+    padding: 0.5em 0;
+  }
